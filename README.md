@@ -1,7 +1,6 @@
 # PinephonePogoBreakout
 
-A breakout board for the Pinephone's expansion port, which consists of 6 pogo pins connected to I2C (SDA and SCL), the battery (at 3.8V), a 3.3V power rail (or is it 5V? Not confirmed yet), an interrupt pin, and GND.
-
+A breakout board for the Pinephone's expansion port, which consists of 6 pogo pins connected to I2C (SDA and SCL), the battery (at ~3.8V, powered even when device is off), a 5V/500mA power rail (which is powered from and only when USB in plugged in), an interrupt pin, and GND.
 
 I will go back and update the silkscreen layer to indicate which I2C pin is which, once I find out myself.
 
